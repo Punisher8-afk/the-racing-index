@@ -293,6 +293,12 @@
     .race-weekend-card p, .calendar-card p { margin: 0 0 10px; color: var(--muted); font-size: 11px; line-height: 1.7; }
     .race-weekend-card details { margin-top: 10px; border-top: 1px solid var(--line); }
     .race-weekend-card summary { padding-top: 10px; cursor: pointer; font-size: 10px; font-weight: 800; }
+    .race-watch-intro { margin: 8px 0 7px !important; color: var(--muted); font-size: 10px !important; }
+    .race-watch-list { display: grid; gap: 7px; margin: 0; padding: 0; list-style: none; }
+    .race-watch-list li { position: relative; padding-left: 13px; color: var(--muted); font-size: 10px; line-height: 1.6; }
+    .race-watch-list li::before { position: absolute; top: .55em; left: 0; width: 5px; height: 5px; border-radius: 50%; background: var(--blue-dark); content: ""; }
+    .race-watch-list strong { color: var(--ink); }
+    .race-watch-note { margin: 8px 0 0 !important; padding-top: 7px; border-top: 1px solid var(--line); font-size: 9px !important; }
     .race-source { display: inline-block; margin-top: 7px; font-size: 10px; }
     .calendar-card { border-top-color: var(--red); }
     .calendar-card a { display: inline-block; margin-top: 2px; font-size: 10px; }
@@ -948,25 +954,25 @@
           <article class="race-weekend-card" data-series="f1">
             <span class="mono">01 · Single-seaters</span><h3>Formula 1</h3>
             <p>Most events use practice, qualifying, then a Grand Prix. Selected rounds add a sprint format with its own qualifying and shorter race.</p>
-            <details><summary>What to watch</summary><p>Practice is for setup and tyre learning; qualifying sets the grid. Race strategy revolves around tyre life, pit stops, track position, weather, and safety-car timing. Points and sprint rules follow the season's sporting regulations.</p></details>
+            <details><summary>What to watch · 3 race cues</summary><p class="race-watch-intro">Use these cues to follow the strategy battle:</p><ul class="race-watch-list"><li><strong>Tyres and pit timing:</strong> Watch when drivers pit and whether a fresh set gains enough grip to make up the lost track position.</li><li><strong>Passing opportunities:</strong> Notice where a driver closes in and how 2026 energy deployment and active-aero modes affect an attack.</li><li><strong>Neutralisations:</strong> A safety car can change pit-stop timing and bunch up the field, reshaping the race.</li></ul><p class="race-watch-note">Sprint weekends and sporting details vary by event; check the current schedule and regulations.</p></details>
             <a class="race-source" href="https://www.fia.com/regulation/category/110" target="_blank" rel="noopener noreferrer">FIA regulations ↗</a>
           </article>
           <article class="race-weekend-card" data-series="fe">
             <span class="mono">02 · Electric street racing</span><h3>Formula E</h3>
             <p>Practice and knockout qualifying lead into the E-Prix. The race's energy target and any event-specific features make pace management central.</p>
-            <details><summary>What to watch</summary><p>Qualifying duels set the starting order; drivers balance attack with energy use and regenerative braking. Attack Mode and pit-boost availability are event- and season-dependent, so check the event guide rather than assume they apply every time.</p></details>
+            <details><summary>What to watch · 3 race cues</summary><p class="race-watch-intro">Follow the trade-off between speed and saved energy:</p><ul class="race-watch-list"><li><strong>Energy remaining:</strong> Compare a driver's pace with their energy use; efficient driving can create a late-race advantage.</li><li><strong>Regenerative braking:</strong> Watch how drivers recover energy under braking while staying close enough to attack.</li><li><strong>Attack Mode:</strong> Track who has activated it and when. Activation rules and other features, such as pit boost, depend on the event.</li></ul><p class="race-watch-note">Check the event guide for the features and rules in use that weekend.</p></details>
             <a class="race-source" href="https://www.fiaformulae.com/en/rules-and-regulations" target="_blank" rel="noopener noreferrer">Formula E rules ↗</a>
           </article>
           <article class="race-weekend-card" data-series="wec">
             <span class="mono">03 · Multi-class endurance</span><h3>WEC</h3>
             <p>Practice and qualifying prepare the field for a multi-hour race. Hypercar and LMGT3 cars share the circuit while contesting class results.</p>
-            <details><summary>What to watch</summary><p>Driver crews rotate through stints. Teams manage fuel, tyres, traffic, repairs, and night or changing-weather conditions. Each car's class position matters alongside the overall order.</p></details>
+            <details><summary>What to watch · 3 race cues</summary><p class="race-watch-intro">Endurance races have several battles unfolding at once:</p><ul class="race-watch-list"><li><strong>Class battles:</strong> Follow each car against its class rivals, not only the overall leader.</li><li><strong>Traffic:</strong> Notice how faster cars work through slower classes and how clean passes protect time and safety.</li><li><strong>Stints and pit windows:</strong> Driver changes, fuel, tyres, and repairs can shift the order over hours.</li></ul><p class="race-watch-note">Weather, darkness, race length, and pit regulations make each event's strategy different.</p></details>
             <a class="race-source" href="https://www.fiawec.com/en/season/2026" target="_blank" rel="noopener noreferrer">Official WEC season &amp; regulations ↗</a>
           </article>
           <article class="race-weekend-card" data-series="motogp">
             <span class="mono">04 · Grand Prix motorcycles</span><h3>MotoGP</h3>
             <p>Practice determines direct entry to the qualifying stages; qualifying sets the grid for both the sprint and Grand Prix at most events.</p>
-            <details><summary>What to watch</summary><p>The sprint is shorter than the main race, and each has its own points. Riders manage tyre choice, braking, passing, and changing grip; weather and event schedules can alter the weekend programme.</p></details>
+            <details><summary>What to watch · 3 race cues</summary><p class="race-watch-intro">Small changes in grip and rider position are easy to spot:</p><ul class="race-watch-list"><li><strong>Tyre grip:</strong> Watch for changes in corner speed and acceleration as grip evolves through the race.</li><li><strong>Braking battles:</strong> Notice where riders attempt a pass and how they balance late braking with a clean exit.</li><li><strong>Sprint vs. Grand Prix:</strong> Compare the shorter sprint's urgency with the longer race's tyre and pace management.</li></ul><p class="race-watch-note">Points, session formats, and schedules can change; confirm the current event details.</p></details>
             <a class="race-source" href="https://www.motogp.com/en/news/2024/05/06/motogp-2027-regulations/497984" target="_blank" rel="noopener noreferrer">Official MotoGP regulation update ↗</a>
           </article>
         </div>
